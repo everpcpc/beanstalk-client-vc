@@ -8,7 +8,6 @@ using namespace std;
 using namespace Beanstalk;
 
 int main() {
-	int tttt;
 	Client client("127.0.0.1", 11300);
 	assert(client.use("test"));
 	assert(client.watch("test"));
