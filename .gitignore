@@ -1,2 +1,5 @@
 .vs/
-beanstalk-client-vc.sdf
+*.sdf
+*.opensdf
+Debug/
+Release/
